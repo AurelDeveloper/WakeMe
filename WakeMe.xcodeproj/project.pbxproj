@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE916A4A2B308A7D00478E56 /* WakeMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A492B308A7D00478E56 /* WakeMeApp.swift */; };
+		EE916A4C2B308A7D00478E56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A4B2B308A7D00478E56 /* ContentView.swift */; };
+		EE916A4E2B308A7F00478E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE916A4D2B308A7F00478E56 /* Assets.xcassets */; };
+		EE916A512B308A7F00478E56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE916A502B308A7F00478E56 /* Preview Assets.xcassets */; };
+		EE916A5B2B308A7F00478E56 /* WakeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A5A2B308A7F00478E56 /* WakeMeTests.swift */; };
+		EE916A652B308A7F00478E56 /* WakeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A642B308A7F00478E56 /* WakeMeUITests.swift */; };
+		EE916A672B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE916A572B308A7F00478E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE916A3E2B308A7D00478E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE916A452B308A7D00478E56;
+			remoteInfo = WakeMe;
+		};
+		EE916A612B308A7F00478E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE916A3E2B308A7D00478E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE916A452B308A7D00478E56;
+			remoteInfo = WakeMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE916A462B308A7D00478E56 /* WakeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE916A492B308A7D00478E56 /* WakeMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeApp.swift; sourceTree = "<group>"; };
+		EE916A4B2B308A7D00478E56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE916A4D2B308A7F00478E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE916A502B308A7F00478E56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE916A562B308A7F00478E56 /* WakeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE916A5A2B308A7F00478E56 /* WakeMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeTests.swift; sourceTree = "<group>"; };
+		EE916A602B308A7F00478E56 /* WakeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE916A642B308A7F00478E56 /* WakeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITests.swift; sourceTree = "<group>"; };
+		EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE916A432B308A7D00478E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE916A532B308A7F00478E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE916A5D2B308A7F00478E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE916A3D2B308A7D00478E56 = {
+			isa = PBXGroup;
+			children = (
+				EE916A482B308A7D00478E56 /* WakeMe */,
+				EE916A592B308A7F00478E56 /* WakeMeTests */,
+				EE916A632B308A7F00478E56 /* WakeMeUITests */,
+				EE916A472B308A7D00478E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE916A472B308A7D00478E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A462B308A7D00478E56 /* WakeMe.app */,
+				EE916A562B308A7F00478E56 /* WakeMeTests.xctest */,
+				EE916A602B308A7F00478E56 /* WakeMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE916A482B308A7D00478E56 /* WakeMe */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A492B308A7D00478E56 /* WakeMeApp.swift */,
+				EE916A4B2B308A7D00478E56 /* ContentView.swift */,
+				EE916A4D2B308A7F00478E56 /* Assets.xcassets */,
+				EE916A4F2B308A7F00478E56 /* Preview Content */,
+			);
+			path = WakeMe;
+			sourceTree = "<group>";
+		};
+		EE916A4F2B308A7F00478E56 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A502B308A7F00478E56 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE916A592B308A7F00478E56 /* WakeMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A5A2B308A7F00478E56 /* WakeMeTests.swift */,
+			);
+			path = WakeMeTests;
+			sourceTree = "<group>";
+		};
+		EE916A632B308A7F00478E56 /* WakeMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A642B308A7F00478E56 /* WakeMeUITests.swift */,
+				EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */,
+			);
+			path = WakeMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE916A452B308A7D00478E56 /* WakeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE916A6A2B308A7F00478E56 /* Build configuration list for PBXNativeTarget "WakeMe" */;
+			buildPhases = (
+				EE916A422B308A7D00478E56 /* Sources */,
+				EE916A432B308A7D00478E56 /* Frameworks */,
+				EE916A442B308A7D00478E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeMe;
+			productName = WakeMe;
+			productReference = EE916A462B308A7D00478E56 /* WakeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE916A552B308A7F00478E56 /* WakeMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE916A6D2B308A7F00478E56 /* Build configuration list for PBXNativeTarget "WakeMeTests" */;
+			buildPhases = (
+				EE916A522B308A7F00478E56 /* Sources */,
+				EE916A532B308A7F00478E56 /* Frameworks */,
+				EE916A542B308A7F00478E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE916A582B308A7F00478E56 /* PBXTargetDependency */,
+			);
+			name = WakeMeTests;
+			productName = WakeMeTests;
+			productReference = EE916A562B308A7F00478E56 /* WakeMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE916A5F2B308A7F00478E56 /* WakeMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE916A702B308A7F00478E56 /* Build configuration list for PBXNativeTarget "WakeMeUITests" */;
+			buildPhases = (
+				EE916A5C2B308A7F00478E56 /* Sources */,
+				EE916A5D2B308A7F00478E56 /* Frameworks */,
+				EE916A5E2B308A7F00478E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE916A622B308A7F00478E56 /* PBXTargetDependency */,
+			);
+			name = WakeMeUITests;
+			productName = WakeMeUITests;
+			productReference = EE916A602B308A7F00478E56 /* WakeMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE916A3E2B308A7D00478E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EE916A452B308A7D00478E56 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EE916A552B308A7F00478E56 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EE916A452B308A7D00478E56;
+					};
+					EE916A5F2B308A7F00478E56 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EE916A452B308A7D00478E56;
+					};
+				};
+			};
+			buildConfigurationList = EE916A412B308A7D00478E56 /* Build configuration list for PBXProject "WakeMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE916A3D2B308A7D00478E56;
+			productRefGroup = EE916A472B308A7D00478E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE916A452B308A7D00478E56 /* WakeMe */,
+				EE916A552B308A7F00478E56 /* WakeMeTests */,
+				EE916A5F2B308A7F00478E56 /* WakeMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE916A442B308A7D00478E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE916A512B308A7F00478E56 /* Preview Assets.xcassets in Resources */,
+				EE916A4E2B308A7F00478E56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE916A542B308A7F00478E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE916A5E2B308A7F00478E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE916A422B308A7D00478E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE916A4C2B308A7D00478E56 /* ContentView.swift in Sources */,
+				EE916A4A2B308A7D00478E56 /* WakeMeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE916A522B308A7F00478E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE916A5B2B308A7F00478E56 /* WakeMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE916A5C2B308A7F00478E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE916A672B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift in Sources */,
+				EE916A652B308A7F00478E56 /* WakeMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE916A582B308A7F00478E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE916A452B308A7D00478E56 /* WakeMe */;
+			targetProxy = EE916A572B308A7F00478E56 /* PBXContainerItemProxy */;
+		};
+		EE916A622B308A7F00478E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE916A452B308A7D00478E56 /* WakeMe */;
+			targetProxy = EE916A612B308A7F00478E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE916A682B308A7F00478E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE916A692B308A7F00478E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE916A6B2B308A7F00478E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WakeMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AurelDeveloper.WakeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE916A6C2B308A7F00478E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WakeMe/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AurelDeveloper.WakeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE916A6E2B308A7F00478E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AurelDeveloper.WakeMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WakeMe";
+			};
+			name = Debug;
+		};
+		EE916A6F2B308A7F00478E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AurelDeveloper.WakeMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakeMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WakeMe";
+			};
+			name = Release;
+		};
+		EE916A712B308A7F00478E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AurelDeveloper.WakeMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakeMe;
+			};
+			name = Debug;
+		};
+		EE916A722B308A7F00478E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AurelDeveloper.WakeMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WakeMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE916A412B308A7D00478E56 /* Build configuration list for PBXProject "WakeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE916A682B308A7F00478E56 /* Debug */,
+				EE916A692B308A7F00478E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE916A6A2B308A7F00478E56 /* Build configuration list for PBXNativeTarget "WakeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE916A6B2B308A7F00478E56 /* Debug */,
+				EE916A6C2B308A7F00478E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE916A6D2B308A7F00478E56 /* Build configuration list for PBXNativeTarget "WakeMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE916A6E2B308A7F00478E56 /* Debug */,
+				EE916A6F2B308A7F00478E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE916A702B308A7F00478E56 /* Build configuration list for PBXNativeTarget "WakeMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE916A712B308A7F00478E56 /* Debug */,
+				EE916A722B308A7F00478E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE916A3E2B308A7D00478E56 /* Project object */;
+}
