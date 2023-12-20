@@ -14,6 +14,10 @@
 		EE916A5B2B308A7F00478E56 /* WakeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A5A2B308A7F00478E56 /* WakeMeTests.swift */; };
 		EE916A652B308A7F00478E56 /* WakeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A642B308A7F00478E56 /* WakeMeUITests.swift */; };
 		EE916A672B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */; };
+		EE916A902B320C7B00478E56 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A8F2B320C7B00478E56 /* AlarmController.swift */; };
+		EE916A922B320D0B00478E56 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A912B320D0B00478E56 /* AlarmScheduler.swift */; };
+		EE916A942B320ECB00478E56 /* AlarmVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A932B320ECB00478E56 /* AlarmVault.swift */; };
+		EE916A962B320F2700478E56 /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A952B320F2700478E56 /* StepCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		EE916A602B308A7F00478E56 /* WakeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE916A642B308A7F00478E56 /* WakeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITests.swift; sourceTree = "<group>"; };
 		EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE916A8F2B320C7B00478E56 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
+		EE916A912B320D0B00478E56 /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
+		EE916A932B320ECB00478E56 /* AlarmVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVault.swift; sourceTree = "<group>"; };
+		EE916A952B320F2700478E56 /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		EE916A482B308A7D00478E56 /* WakeMe */ = {
 			isa = PBXGroup;
 			children = (
-				EE916A492B308A7D00478E56 /* WakeMeApp.swift */,
-				EE916A4B2B308A7D00478E56 /* ContentView.swift */,
+				EE916A812B30DAE900478E56 /* Models */,
+				EE916A8E2B320C4700478E56 /* Controller */,
+				EE916A822B30DAF300478E56 /* Views */,
 				EE916A4D2B308A7F00478E56 /* Assets.xcassets */,
 				EE916A4F2B308A7F00478E56 /* Preview Content */,
 			);
@@ -125,6 +134,33 @@
 				EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */,
 			);
 			path = WakeMeUITests;
+			sourceTree = "<group>";
+		};
+		EE916A812B30DAE900478E56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A492B308A7D00478E56 /* WakeMeApp.swift */,
+				EE916A932B320ECB00478E56 /* AlarmVault.swift */,
+				EE916A912B320D0B00478E56 /* AlarmScheduler.swift */,
+				EE916A952B320F2700478E56 /* StepCounter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE916A822B30DAF300478E56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A4B2B308A7D00478E56 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE916A8E2B320C4700478E56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A8F2B320C7B00478E56 /* AlarmController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +295,10 @@
 			files = (
 				EE916A4C2B308A7D00478E56 /* ContentView.swift in Sources */,
 				EE916A4A2B308A7D00478E56 /* WakeMeApp.swift in Sources */,
+				EE916A962B320F2700478E56 /* StepCounter.swift in Sources */,
+				EE916A902B320C7B00478E56 /* AlarmController.swift in Sources */,
+				EE916A922B320D0B00478E56 /* AlarmScheduler.swift in Sources */,
+				EE916A942B320ECB00478E56 /* AlarmVault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
