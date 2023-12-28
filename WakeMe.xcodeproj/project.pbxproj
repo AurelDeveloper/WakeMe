@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE7613562B3E05B500D5B35B /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613552B3E05B500D5B35B /* Alarm.swift */; };
+		EE7613582B3E05C300D5B35B /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613572B3E05C300D5B35B /* Time.swift */; };
+		EE76135A2B3E060000D5B35B /* AlarmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613592B3E060000D5B35B /* AlarmDetailView.swift */; };
+		EE76135E2B3E064B00D5B35B /* AlarmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76135D2B3E064B00D5B35B /* AlarmListViewModel.swift */; };
+		EE7613602B3E066100D5B35B /* AlarmDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76135F2B3E066100D5B35B /* AlarmDetailViewModel.swift */; };
+		EE7613632B3E068800D5B35B /* AlarmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613622B3E068800D5B35B /* AlarmService.swift */; };
+		EE7613652B3E069A00D5B35B /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613642B3E069A00D5B35B /* TimeService.swift */; };
+		EE7613672B3E06B500D5B35B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613662B3E06B500D5B35B /* NotificationService.swift */; };
+		EE76136A2B3E06D700D5B35B /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613692B3E06D700D5B35B /* DateHelper.swift */; };
+		EE76136C2B3E06F100D5B35B /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76136B2B3E06F100D5B35B /* NotificationHelper.swift */; };
+		EE76136F2B3E073000D5B35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE76136E2B3E073000D5B35B /* AppDelegate.swift */; };
+		EE7613712B3E074800D5B35B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613702B3E074800D5B35B /* SceneDelegate.swift */; };
+		EE7613742B3E077800D5B35B /* NotificationServiceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613732B3E077800D5B35B /* NotificationServiceExtension.swift */; };
+		EE7613762B3E07BA00D5B35B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613752B3E07BA00D5B35B /* ContentView.swift */; };
+		EE7613792B3E08CD00D5B35B /* BackgroundTaskScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7613782B3E08CD00D5B35B /* BackgroundTaskScheduler.swift */; };
 		EE916A4A2B308A7D00478E56 /* WakeMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A492B308A7D00478E56 /* WakeMeApp.swift */; };
-		EE916A4C2B308A7D00478E56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A4B2B308A7D00478E56 /* ContentView.swift */; };
+		EE916A4C2B308A7D00478E56 /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A4B2B308A7D00478E56 /* AlarmListView.swift */; };
 		EE916A4E2B308A7F00478E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE916A4D2B308A7F00478E56 /* Assets.xcassets */; };
 		EE916A512B308A7F00478E56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE916A502B308A7F00478E56 /* Preview Assets.xcassets */; };
 		EE916A5B2B308A7F00478E56 /* WakeMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A5A2B308A7F00478E56 /* WakeMeTests.swift */; };
 		EE916A652B308A7F00478E56 /* WakeMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A642B308A7F00478E56 /* WakeMeUITests.swift */; };
 		EE916A672B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */; };
-		EE916A902B320C7B00478E56 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A8F2B320C7B00478E56 /* AlarmController.swift */; };
-		EE916A922B320D0B00478E56 /* AlarmScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A912B320D0B00478E56 /* AlarmScheduler.swift */; };
-		EE916A942B320ECB00478E56 /* AlarmVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A932B320ECB00478E56 /* AlarmVault.swift */; };
-		EE916A962B320F2700478E56 /* StepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE916A952B320F2700478E56 /* StepCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE7613552B3E05B500D5B35B /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		EE7613572B3E05C300D5B35B /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		EE7613592B3E060000D5B35B /* AlarmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailView.swift; sourceTree = "<group>"; };
+		EE76135D2B3E064B00D5B35B /* AlarmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListViewModel.swift; sourceTree = "<group>"; };
+		EE76135F2B3E066100D5B35B /* AlarmDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmDetailViewModel.swift; sourceTree = "<group>"; };
+		EE7613622B3E068800D5B35B /* AlarmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmService.swift; sourceTree = "<group>"; };
+		EE7613642B3E069A00D5B35B /* TimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeService.swift; sourceTree = "<group>"; };
+		EE7613662B3E06B500D5B35B /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		EE7613692B3E06D700D5B35B /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		EE76136B2B3E06F100D5B35B /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		EE76136E2B3E073000D5B35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7613702B3E074800D5B35B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE7613732B3E077800D5B35B /* NotificationServiceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationServiceExtension.swift; sourceTree = "<group>"; };
+		EE7613752B3E07BA00D5B35B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE7613782B3E08CD00D5B35B /* BackgroundTaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskScheduler.swift; sourceTree = "<group>"; };
 		EE916A462B308A7D00478E56 /* WakeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE916A492B308A7D00478E56 /* WakeMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeApp.swift; sourceTree = "<group>"; };
-		EE916A4B2B308A7D00478E56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE916A4B2B308A7D00478E56 /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
 		EE916A4D2B308A7F00478E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE916A502B308A7F00478E56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE916A562B308A7F00478E56 /* WakeMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,10 +74,6 @@
 		EE916A602B308A7F00478E56 /* WakeMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE916A642B308A7F00478E56 /* WakeMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITests.swift; sourceTree = "<group>"; };
 		EE916A662B308A7F00478E56 /* WakeMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EE916A8F2B320C7B00478E56 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
-		EE916A912B320D0B00478E56 /* AlarmScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmScheduler.swift; sourceTree = "<group>"; };
-		EE916A932B320ECB00478E56 /* AlarmVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVault.swift; sourceTree = "<group>"; };
-		EE916A952B320F2700478E56 /* StepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE76135C2B3E062100D5B35B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EE76135D2B3E064B00D5B35B /* AlarmListViewModel.swift */,
+				EE76135F2B3E066100D5B35B /* AlarmDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE7613612B3E066D00D5B35B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EE7613622B3E068800D5B35B /* AlarmService.swift */,
+				EE7613642B3E069A00D5B35B /* TimeService.swift */,
+				EE7613662B3E06B500D5B35B /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EE7613682B3E06C500D5B35B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE7613692B3E06D700D5B35B /* DateHelper.swift */,
+				EE76136B2B3E06F100D5B35B /* NotificationHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EE76136D2B3E071B00D5B35B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EE76136E2B3E073000D5B35B /* AppDelegate.swift */,
+				EE7613702B3E074800D5B35B /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		EE7613722B3E075700D5B35B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE7613732B3E077800D5B35B /* NotificationServiceExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE7613772B3E08A600D5B35B /* BackgroundTasks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7613782B3E08CD00D5B35B /* BackgroundTaskScheduler.swift */,
+			);
+			path = BackgroundTasks;
+			sourceTree = "<group>";
+		};
+		EE76137A2B3E08ED00D5B35B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE916A4D2B308A7F00478E56 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		EE916A3D2B308A7D00478E56 = {
 			isa = PBXGroup;
 			children = (
@@ -102,10 +185,16 @@
 		EE916A482B308A7D00478E56 /* WakeMe */ = {
 			isa = PBXGroup;
 			children = (
+				EE916A492B308A7D00478E56 /* WakeMeApp.swift */,
+				EE76136D2B3E071B00D5B35B /* Delegates */,
 				EE916A812B30DAE900478E56 /* Models */,
-				EE916A8E2B320C4700478E56 /* Controller */,
 				EE916A822B30DAF300478E56 /* Views */,
-				EE916A4D2B308A7F00478E56 /* Assets.xcassets */,
+				EE76135C2B3E062100D5B35B /* ViewModels */,
+				EE7613612B3E066D00D5B35B /* Services */,
+				EE7613682B3E06C500D5B35B /* Helpers */,
+				EE7613772B3E08A600D5B35B /* BackgroundTasks */,
+				EE7613722B3E075700D5B35B /* Extensions */,
+				EE76137A2B3E08ED00D5B35B /* Resources */,
 				EE916A4F2B308A7F00478E56 /* Preview Content */,
 			);
 			path = WakeMe;
@@ -139,10 +228,8 @@
 		EE916A812B30DAE900478E56 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EE916A492B308A7D00478E56 /* WakeMeApp.swift */,
-				EE916A932B320ECB00478E56 /* AlarmVault.swift */,
-				EE916A912B320D0B00478E56 /* AlarmScheduler.swift */,
-				EE916A952B320F2700478E56 /* StepCounter.swift */,
+				EE7613552B3E05B500D5B35B /* Alarm.swift */,
+				EE7613572B3E05C300D5B35B /* Time.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,17 +237,11 @@
 		EE916A822B30DAF300478E56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EE916A4B2B308A7D00478E56 /* ContentView.swift */,
+				EE916A4B2B308A7D00478E56 /* AlarmListView.swift */,
+				EE7613592B3E060000D5B35B /* AlarmDetailView.swift */,
+				EE7613752B3E07BA00D5B35B /* ContentView.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		EE916A8E2B320C4700478E56 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				EE916A8F2B320C7B00478E56 /* AlarmController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,12 +374,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE916A4C2B308A7D00478E56 /* ContentView.swift in Sources */,
+				EE7613792B3E08CD00D5B35B /* BackgroundTaskScheduler.swift in Sources */,
+				EE916A4C2B308A7D00478E56 /* AlarmListView.swift in Sources */,
+				EE7613712B3E074800D5B35B /* SceneDelegate.swift in Sources */,
+				EE7613762B3E07BA00D5B35B /* ContentView.swift in Sources */,
+				EE7613742B3E077800D5B35B /* NotificationServiceExtension.swift in Sources */,
 				EE916A4A2B308A7D00478E56 /* WakeMeApp.swift in Sources */,
-				EE916A962B320F2700478E56 /* StepCounter.swift in Sources */,
-				EE916A902B320C7B00478E56 /* AlarmController.swift in Sources */,
-				EE916A922B320D0B00478E56 /* AlarmScheduler.swift in Sources */,
-				EE916A942B320ECB00478E56 /* AlarmVault.swift in Sources */,
+				EE7613582B3E05C300D5B35B /* Time.swift in Sources */,
+				EE7613632B3E068800D5B35B /* AlarmService.swift in Sources */,
+				EE7613602B3E066100D5B35B /* AlarmDetailViewModel.swift in Sources */,
+				EE7613562B3E05B500D5B35B /* Alarm.swift in Sources */,
+				EE76136C2B3E06F100D5B35B /* NotificationHelper.swift in Sources */,
+				EE76135E2B3E064B00D5B35B /* AlarmListViewModel.swift in Sources */,
+				EE76136F2B3E073000D5B35B /* AppDelegate.swift in Sources */,
+				EE7613652B3E069A00D5B35B /* TimeService.swift in Sources */,
+				EE7613672B3E06B500D5B35B /* NotificationService.swift in Sources */,
+				EE76136A2B3E06D700D5B35B /* DateHelper.swift in Sources */,
+				EE76135A2B3E060000D5B35B /* AlarmDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
